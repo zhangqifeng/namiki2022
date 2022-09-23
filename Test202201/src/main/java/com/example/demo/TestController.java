@@ -23,5 +23,6 @@ public class TestController {
         List<Map<String, Object>> list = jdbcTemplate.queryForList(sql);
         model.addAttribute("testList", list);
         return "index";
+   //zhushi
     }
 }
